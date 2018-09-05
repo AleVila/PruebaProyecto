@@ -1,0 +1,15 @@
+package com.ale.view2;
+
+import com.ale.ejemplo2.*;
+
+public class corre {
+	public corre(String[] args) {
+		
+		
+		
+		
+		
+		
+	}
+
+}

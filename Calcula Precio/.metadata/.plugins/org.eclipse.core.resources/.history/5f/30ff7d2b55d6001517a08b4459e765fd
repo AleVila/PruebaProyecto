@@ -1,0 +1,23 @@
+package CalculaPrecio;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+		public void calculaPrecio()
+	{
+			double precioBs;
+			double precioSus;
+			double tipoDeCambio;
+			
+			
+			tipoDeCambio = 6.92;
+			precioBs = 100;
+			precioSus = precioBs / tipoDeCambio;
+			
+			System.out.printf("El precio en SUS es: %4.2f \n", precioSus);
+			System.out.printf("El precio en SUS es: " + precioSus);
+	}
+}

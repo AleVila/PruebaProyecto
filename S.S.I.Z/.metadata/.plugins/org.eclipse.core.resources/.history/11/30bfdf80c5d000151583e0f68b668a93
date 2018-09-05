@@ -1,0 +1,42 @@
+package com.ale.ejemplo1;
+
+
+/**
+ * 
+ */
+public class Estudiante extends Persona {
+
+    /**
+     * Default constructor
+     */
+    public Estudiante(String ci, String nombre, String direccion, String codigo, String carrrera)  {
+    super(ci,nombre,direccion);
+    this.carrera = carrrera;
+    this.codigo = codigo;
+    }
+    
+
+    /**
+     * 
+     */
+    private String codigo;
+
+    /**
+     * 
+     */
+    private String carrera;
+
+	@Override
+	public String toString() {
+		return "Estudiante [ci=" + ci + ", nombre=" + nombre
+				+ ", direccion=" + direccion + ",codigo=" + codigo + ", carrera=" + carrera + "]";
+	}
+
+	
+    /**
+     * 
+     */
+   
+    
+
+}

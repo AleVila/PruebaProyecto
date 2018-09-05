@@ -1,0 +1,13 @@
+package com.ale.view;
+
+import com.ale.ejemplo1.*;
+
+public class principal {
+
+	public static void main(String[] args) {
+		Persona persona = new Persona("4444", "Juan", "Perez");
+		System.out.println (persona.toString());
+		Estudiante estudiante = new Estudiante("4444", "Juan", "Perez", "37789", "Produ", "10", "ProUni", "blabla");
+		System.out.println(estudiante.toString());
+	}
+}

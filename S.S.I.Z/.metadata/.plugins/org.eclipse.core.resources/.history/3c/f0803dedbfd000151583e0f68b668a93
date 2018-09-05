@@ -1,0 +1,11 @@
+package com.ale.view;
+
+import com.ale.ejemplo1.*;
+
+public class principal {
+
+	public static void main(String[] args) {
+		Persona persona = new Persona("4444", "Juan", "Perez");
+		System.out.println (persona.toString());
+	}
+}

@@ -1,0 +1,25 @@
+package com.ale.ejemplo1;
+
+public class Materia {
+
+	private int code;
+	
+	private String name;
+	
+	private String descripcion;
+
+	public Materia(String code, String name, String descripcion) {
+		
+		this.code = code;
+		this.name = name;
+		this.descripcion = descripcion;
+	}
+
+	@Override
+	public String toString() {
+		return "materia [code=" + code + ", name=" + name + ", descripcion=" + descripcion + "]";
+	}
+	
+	
+	
+}

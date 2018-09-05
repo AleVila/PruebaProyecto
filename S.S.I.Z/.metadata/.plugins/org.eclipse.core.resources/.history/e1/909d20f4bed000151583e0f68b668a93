@@ -1,0 +1,32 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Estudiante extends Persona {
+
+    /**
+     * Default constructor
+     */
+    public Estudiante() {
+    }
+
+    /**
+     * 
+     */
+    private String código;
+
+    /**
+     * 
+     */
+    private String carrera;
+
+    /**
+     * 
+     */
+    public void Estudiante() {
+        // TODO implement here
+    }
+
+}

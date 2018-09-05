@@ -1,0 +1,38 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Celular {
+
+    /**
+     * Default constructor
+     */
+    public Celular() {
+    }
+
+    /**
+     * 
+     */
+    public String marca;
+
+    /**
+     * 
+     */
+    public String modelo;
+
+    /**
+     * 
+     */
+    public String numero;
+
+
+    /**
+     * 
+     */
+    public void Celular() {
+        // TODO implement here
+    }
+
+}

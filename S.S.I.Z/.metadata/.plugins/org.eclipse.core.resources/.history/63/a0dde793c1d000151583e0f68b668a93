@@ -1,0 +1,43 @@
+package com.ale.ejemplo1;
+
+
+/**
+ * 
+ */
+public class Persona {
+
+    /**
+     * Default constructor
+     */
+    public Persona(String ci, String nombrePersona, String direccionPersona) {
+    	this.ci = ci;
+    	this.nombre = nombrePersona;
+    	this.direccion = direccionPersona; 
+    }
+
+    /**
+     * 
+     */
+    private String ci;
+
+    /**
+     * 
+     */
+    private String nombre;
+
+    /**
+     * 
+     */
+    public String direccion;
+
+	@Override
+	public String toString() {
+		return "Persona [ci=" + ci + ", nombre=" + nombre + ", direccion=" + direccion + "]";
+	}
+
+    /**
+     * 
+     */
+   
+
+}

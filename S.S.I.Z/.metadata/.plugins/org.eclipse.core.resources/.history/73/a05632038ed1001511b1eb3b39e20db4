@@ -1,0 +1,21 @@
+package com.ale.ejemplo1;
+public class Producto {
+
+	private String nombre;
+	private String descripcion;
+	private double precion;
+	
+	public Producto(String nombre, String descripcion, double precion) {
+		super();
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+		this.precion = precion;
+	}
+	
+	@Override
+	public String toString() {
+		return "Producto [nombre=" + nombre + ", descripcion=" + descripcion + ", precion=" + precion + "]";
+	}
+
+	
+}

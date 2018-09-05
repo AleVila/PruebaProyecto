@@ -1,0 +1,38 @@
+
+package com.ale.ejemplo2;
+
+/**
+ * 
+ */
+public class Empresa {
+
+    /**
+     * Default constructor
+     */
+  
+    public Empresa(String nombre, String descripcion) {
+		super();
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+	}
+
+	/**
+     * 
+     */
+    public String nombre;
+
+    /**
+     * 
+     */
+    public String descripcion;
+
+	@Override
+	public String toString() {
+		return "Empresa [nombre=" + nombre + ", descripcion=" + descripcion + "]";
+	}
+
+
+  
+    
+
+}

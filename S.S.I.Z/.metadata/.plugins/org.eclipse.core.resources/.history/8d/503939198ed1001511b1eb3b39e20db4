@@ -1,0 +1,47 @@
+package com.ale.ejemplo1;
+
+
+/**
+ * 
+ */
+public class Estudiante extends Persona {
+
+    /**
+     * Default constructor
+     */
+    public Estudiante(String ci, String nombre, String direccion, String codigo, String carrrera, String codigoMateria, String nombreMateria, String descripcionMateria)  {
+    super(ci,nombre,direccion);
+    this.carrera = carrrera;
+    this.codigo = codigo;
+    this.materia = new Materia(codigoMateria, nombreMateria, descripcionMateria);
+    }
+    
+
+    private Materia materia; 
+    
+    private String codigo;
+
+    private String carrera;
+    
+    private Equipo equipoDeportivo;
+
+	@Override
+	public String toString() {
+		return "Estudiante [ci=" + ci + ", nombre=" + nombre
+				+ ", direccion=" + direccion + ",codigo=" + codigo + ", carrera=" + carrera + "] " + materia.toString();
+	}
+
+	
+    public void pertenece(String rama, String nombre, String descripcion) {
+    	this.equipoDeportivo = new Equipo(rama,nombre,descripcion);
+    	
+    }
+    
+    public void comprar(String nombre, String descripcion, double precio)
+    {
+    		Producto producto = new Producto (nombre,descripcion,precio);
+    		
+    		System.out.println("El estudiante " + this.nombre + " compró un " + 
+    							producto.getNombre() + " a Bs." + producto.getPrecion());
+    }
+    }

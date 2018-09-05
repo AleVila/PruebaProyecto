@@ -1,0 +1,33 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Empresa {
+
+    /**
+     * Default constructor
+     */
+    public Empresa() {
+    }
+
+    /**
+     * 
+     */
+    public String nombre;
+
+    /**
+     * 
+     */
+    public String descripcion;
+
+
+    /**
+     * 
+     */
+    public void Empresa() {
+        // TODO implement here
+    }
+
+}
